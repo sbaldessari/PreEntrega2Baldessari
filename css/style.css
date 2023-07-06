@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url(../font/Rubik-VariableFont_wght.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+}
+
+.bg-color-caja {
+    background-color: rgb(233, 233, 252);
+}
+
+.bg-color-boton {
+    background-color: #85B041;
+}
+
+.bg-color-boton:hover {
+    background-color: #45a049;
+}
+
+header{
+    background-image: url(../img/banner.jpg);
+    background-size:cover;
+    display: grid;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+}
+
+header .lead{
+    font-size: 25pt;
+}
+
+body {
+    background-image: url("../img/fondo.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat;  
+    display: grid;      
+} 
+
+main h2{
+    margin: 15px;
+    text-align: center;
+    color: #3A5683;
+}
+
+main h3{
+    margin: 15px;
+    text-align: center;
+    font-style: italic;
+    color: #3A5683;
+}
+
+/* MENU PRINCIPAL */
+nav { 
+    background-color:#85B041;
+}
+/* FIN MENU PRINCIPAL */
+
+
+/* RRSS */
+footer { 
+    background-color: white;
+}
+footer ul { 
+    margin-right: 15px;
+}
+/* FIN RRSS */
+
+
+/* QUIENES SOMOS */
+.quienes-somos-caja {
+    background-color: rgb(233, 233, 252);
+    overflow: hide;
+    border: 1px solid rgb(0, 0, 0);
+}
+.quienes-somos-caja img {
+    object-fit: cover;
+    padding: 10px;
+    width:100%;
+    height:100%;
+}
+.quienes-somos-caja h4 {
+    text-align: center;
+}
+/* FIN QUIENES SOMOS */
+
+
+/* AVENTURAS */
+.aventuras {
+    margin-top: 5px;
+    overflow: hide;
+    vertical-align: top;
+    border: 1px solid rgb(0, 0, 0);
+}
+.aventuras img {     
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+.aventuras h4 {
+    text-align: center;
+}
+/* FIN AVENTURAS */
+
+
+/* CONTACTANOS */
+.contactanos button {
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+/* FIN CONTACTANOS */
+
+
+/* EQUIPAMIENTO */
+.equipamiento {
+    text-align: left;
+}
+.equipamiento ul li.active {
+    text-align: center;
+    background-color: #85B041;
+    border-color: #85B041;
+}
+/* FIN EQUIPAMIENTO */
+
+
+
+/* EXPERIENCIAS */
+.experiencias {
+    overflow: hide;
+    vertical-align: top;
+    padding: 15px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.experiencias iframe { 
+    height: 200px;
+}
+/* FIN EXPERIENCIAS */
+
+
+
+@media (max-width: 576px) {
+
+    .home {
+        text-align: center;
+    }
+
+    .quienes-somos-caja {
+        background-color: rgb(233, 233, 252);
+    }  
+    
+    .quienes-somos-caja p {
+        text-align: center;
+    }
+
+    .aventuras img {     
+        padding: 15px;
+    }
+    
+    .aventuras h4 {
+        text-align: center;
+    }
+
+    .aventuras p {
+        text-align: center;
+    }    
+    
+    .equipamiento {
+        width: 100%;
+        text-align: center;
+    }
+
+    .experiencias {
+        text-align: center;
+    }
+
+    footer{
+        text-align: left;
+    }
+    
+}
+
